@@ -1,0 +1,43 @@
+Parte 1: Clase Empleado
+
+    Implemente una clase Empleado que contenga los siguientes atributos:
+        -nombre
+        -sueldo
+    Se solicita:
+        1-Definir los atributos de la clase.
+        2-Crear un constructor que inicialice todos los atributos.
+        3-Implementar métodos get para cada atributo.
+        4-Implementar un método mostrarInformacion que imprima los datos del empleado.
+
+Parte 2: Clases Senior y Junior
+
+    Ahora se desea modelar empleados de tipo Senior y Junior, utilizando objetos compuestos.
+
+    Clase Senior
+    Debe contener:
+        -Un atributo bono
+        -Un objeto de tipo Empleado
+
+    Clase Junior
+    Debe contener:
+        -Un atributo duracionContrato
+        -Un objeto de tipo Empleado
+    Se solicita:
+        1-Definir los atributos de cada clase.
+        2-Crear un constructor que reciba:
+            -nombre y sueldo del empleado
+            -el valor del bono o duración de contrato
+        3-Inicializar el objeto Empleado dentro del constructor.
+        4-Implementar un método mostrarInformacion que imprima:
+            -nombre
+            -sueldo
+            -bono o duración de contrato
+
+Parte 3: Uso en main
+
+En la función main, realice lo siguiente:
+
+Se solicita:
+    1-Crear un objeto de tipo Senior y uno de tipo Junior.
+    2-Inicializar los objetos utilizando el constructor.
+    3-Llamar al método mostrarInformacion para cada objeto.
